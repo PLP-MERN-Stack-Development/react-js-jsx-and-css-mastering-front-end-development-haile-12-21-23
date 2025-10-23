@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {UseFetchWeather, userFetchWeather} from '../hooks/useFetchWeather';
+import { userFetchWeather} from '../hooks/useFetchWeather';
 import SearchBar from '../components/SearchBar';
 import WeatherCard from '../components/WeatherCard';
 import Loader from '../components/Loader';

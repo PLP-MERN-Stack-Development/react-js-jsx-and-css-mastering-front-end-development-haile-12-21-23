@@ -3,8 +3,8 @@ const SearchBar=({city, setCity})=>{
         <div className="flex gap-2 mb-6">
             <input type="text"
             value={city}
-            onChange={(e)=>setCity(e,EventTarget.value)}
-            placeholder="Enter city name.."
+            onChange={(e)=>setCity(e.target.value)}
+            placeholder="Enter city name..."
             className="p-2 rounded-md text-gray-700 w-64" />
         </div>
     );
